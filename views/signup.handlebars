@@ -1,0 +1,82 @@
+<link rel="stylesheet" href="/css/signup.css">
+
+<body>
+    <header>
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+        <div class="container">
+          <a class="navbar-brand" href="/"><strong>Cocktail Application</strong></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="searchdrinks">Drink Search</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="createdrinks">Create Drink</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="saveddrinks">Your Drinks</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="login">Log In or Sign up</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Full Page Intro -->
+      <div class="view bg">
+        <!-- Mask & flexbox options-->
+        <div class="mask rgba-black-light align-items-center">
+          <!-- Content -->
+          <div class="card">
+            <div class="card-body w-75">
+            <form>
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" style="border:none" class="form-control" id="userFirstName" placeholder="Enter first name here">
+              </div>
+            </form>
+            <br>
+            <form>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" style="border:none" class="form-control" id="userLastName" placeholder="Enter last name here">
+              </div>
+            </form>
+            <br>
+            <form>
+              <div class="form-group">
+                <label for="emailAddress">Email Address</label>
+                <input type="email" style="border:none" class="form-control" id="userSignUpEmail" placeholder="Enter email address here">
+              </div>
+            </form>
+            <small><em>We'll never share your email with anyone else</em></small>
+          <br>
+          <br>
+            <form>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" style="border:none" class="form-control" id="userPassword" placeholder="Enter password here">
+              </div>
+            </form>
+            <br>
+            <button class="btn" id="signUpPageBtn"><i class="fa fa-user-plus" aria-hidden="true"></i><strong>Sign Up</strong></a></button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+</body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/signup.js"></script>
+
+</html>
